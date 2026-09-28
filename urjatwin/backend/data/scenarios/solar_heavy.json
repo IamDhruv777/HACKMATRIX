@@ -1,0 +1,13 @@
+{
+  "id": "solar_heavy",
+  "name": "Solar-Heavy Afternoon",
+  "description": "High PV, lower demand - voltage rise risk",
+  "time_step_idx": 60,
+  "demand_multiplier": 0.7,
+  "solar_multiplier": 1.0,
+  "initial_battery_soc": 0.15,
+  "battery_available": true,
+  "curtailment_limit_pct": 30,
+  "unavailable_switches": [],
+  "expected_outcome": "correctable"
+}

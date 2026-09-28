@@ -1,0 +1,13 @@
+{
+  "id": "cloud_passage",
+  "name": "Cloud Passage",
+  "description": "Sudden solar drop - forecast error demo",
+  "time_step_idx": 61,
+  "demand_multiplier": 0.85,
+  "solar_multiplier": 0.2,
+  "initial_battery_soc": 0.5,
+  "battery_available": true,
+  "curtailment_limit_pct": 30,
+  "unavailable_switches": [],
+  "expected_outcome": "correctable"
+}

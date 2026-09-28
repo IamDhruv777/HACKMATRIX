@@ -1,0 +1,17 @@
+{
+  "id": "insufficient_flexibility",
+  "name": "Insufficient Flexibility",
+  "description": "High solar, full battery, blocked transfers, minimal curtailment - unresolvable",
+  "time_step_idx": 60,
+  "demand_multiplier": 0.6,
+  "solar_multiplier": 1.0,
+  "initial_battery_soc": 0.94,
+  "battery_available": true,
+  "curtailment_limit_pct": 5,
+  "unavailable_switches": [
+    0,
+    1,
+    2
+  ],
+  "expected_outcome": "infeasible"
+}

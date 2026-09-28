@@ -1,0 +1,13 @@
+{
+  "id": "evening_peak",
+  "name": "Evening Peak",
+  "description": "High demand, low solar - undervoltage risk",
+  "time_step_idx": 18,
+  "demand_multiplier": 1.3,
+  "solar_multiplier": 0.05,
+  "initial_battery_soc": 0.7,
+  "battery_available": true,
+  "curtailment_limit_pct": 10,
+  "unavailable_switches": [],
+  "expected_outcome": "correctable"
+}

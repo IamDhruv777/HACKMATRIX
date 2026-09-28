@@ -1,0 +1,16 @@
+{
+  "id": "equipment_unavailable",
+  "name": "Equipment Unavailable",
+  "description": "Transfer switch unavailable - limited options",
+  "time_step_idx": 18,
+  "demand_multiplier": 1.2,
+  "solar_multiplier": 0.1,
+  "initial_battery_soc": 0.6,
+  "battery_available": true,
+  "curtailment_limit_pct": 20,
+  "unavailable_switches": [
+    0,
+    1
+  ],
+  "expected_outcome": "limited"
+}

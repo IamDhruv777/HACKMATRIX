@@ -1,0 +1,13 @@
+{
+  "id": "normal_operation",
+  "name": "Normal Operation",
+  "description": "Moderate solar and demand - baseline case",
+  "time_step_idx": 36,
+  "demand_multiplier": 1.0,
+  "solar_multiplier": 0.6,
+  "initial_battery_soc": 0.5,
+  "battery_available": true,
+  "curtailment_limit_pct": 30,
+  "unavailable_switches": [],
+  "expected_outcome": "normal"
+}
